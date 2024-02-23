@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 08/31/1994
+date: 1994-08-31
 title: My first post
 tags: machine learning, artificial intellgence
 ---
