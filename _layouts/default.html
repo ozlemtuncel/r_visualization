@@ -1,55 +1,74 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% seo %}
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css?v='' |
+    append: site.github.build_revision | relative_url }}"
+    />
     <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+        <h1>{{ site.title }}</h1>
+        <!-- {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %} -->
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+        <b> University of California, Berkeley </b>
+        M.Eng Mechanical Engineering, 2020
+        <br />
+        MA Physics, 2016
       </header>
-      <section>
-
-      {{ content }}
-
-      </section>
+      <section>{{ content }}</section>
       <footer>
-        <div style="display: flex;">
-          <a href="https://github.com/EdIzaguirre">
-            <img src="./assets/github_logo.png" alt="GitHub Logo" style="width: 33%;">
+        <div
+          style="display: flex; justify-content: center; align-items: center"
+        >
+          <a
+            href="https://github.com/EdIzaguirre"
+            style="flex: 1; text-align: center"
+          >
+            <img
+              src="./assets/img/github_logo.png"
+              alt="GitHub Logo"
+              style="width: 50%; height: auto"
+            />
           </a>
-          <a href="https://www.linkedin.com/in/ed-izaguirre/">
-            <img src="./assets/LI-In-Bug.png" alt="LinkedIn Logo" style="width: 33%;">
+          <a
+            href="https://www.linkedin.com/in/ed-izaguirre/"
+            style="flex: 1; text-align: center"
+          >
+            <img
+              src="./assets/img/LI-In-Bug.png"
+              alt="LinkedIn Logo"
+              style="width: 50%; height: auto"
+            />
           </a>
-          <a href="https://medium.com/@ed.izaguirre">
-            <img src="./assets/medium_logo.jpg" alt="Medium Logo" style="width: 33%;">
+          <a
+            href="https://medium.com/@ed.izaguirre"
+            style="flex: 1; text-align: center"
+          >
+            <img
+              src="./assets/img/medium_logo.jpg"
+              alt="Medium Logo"
+              style="width: 50%; height: auto"
+            />
           </a>
         </div>
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
 </html>
