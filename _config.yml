@@ -1,6 +1,6 @@
-title: Minimal theme
+title: Ed Izaguirre
 logo: /assets/img/face_shot.jpeg
-description: Ed Izaguirre's portfolio
-show_downloads: true
+description: Machine learning engineer enthusiast. Focus on computer vision and natural language processing. A former college physics educator.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
