@@ -18,7 +18,7 @@
   <body>
     <div class="container">
       <div class="left">
-        <header>
+        <body>
           <h1>{{ site.title }}</h1>
           <!-- {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
@@ -30,63 +30,64 @@
             Enjoy indoor gardening, jiu-jitsu, and Stanley Kubrick films.
           </p>
 
-          <b> University of California, Berkeley </b>
-          <br />
-          M.Eng Mechanical Engineering
-          <br />
-          MA Physics
-          <br />
-          <br />
+          <div class="bio_info">
+            <b> University of California, Berkeley </b>
+            <br />
+            M.Eng Mechanical Engineering
+            <br />
+            MA Physics
+            <br />
+            <br />
 
-          <b> Credentials </b>
-          <br />
-          <a
-            href="https://www.credential.net/e15f08bb-c554-488b-877c-84a0e64d2284#gs.591771"
-          >
-            TensorFlow Developer Certificate
-          </a>
-          <br />
-          <a
-            href="https://learn.microsoft.com/en-us/users/edizaguirre-7530/credentials/24dcb5d8c1e99788?ref=https%3A%2F%2Fwww.linkedin.com%2F"
-          >
-            Microsoft Certified: Azure AI Fundamentals
-          </a>
-          <br />
-          <a
-            href="https://learn.microsoft.com/en-us/users/edizaguirre-7530/credentials/fa77dc26bc82c74a?ref=https%3A%2F%2Fwww.linkedin.com%2F"
-          >
-            Microsoft Certified: Azure AI Engineer Associate
-          </a>
+            <b> Credentials </b>
+            <br />
+            <a
+              href="https://www.credential.net/e15f08bb-c554-488b-877c-84a0e64d2284#gs.591771"
+            >
+              TensorFlow Developer Certificate
+            </a>
+            <br />
+            <a
+              href="https://learn.microsoft.com/en-us/users/edizaguirre-7530/credentials/24dcb5d8c1e99788?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+            >
+              Microsoft Certified: Azure AI Fundamentals
+            </a>
+            <br />
+            <a
+              href="https://learn.microsoft.com/en-us/users/edizaguirre-7530/credentials/fa77dc26bc82c74a?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+            >
+              Microsoft Certified: Azure AI Engineer Associate
+            </a>
 
-          <br />
-          <br />
+            <br />
+            <br />
 
-          <b> Courses Taken </b>
-          <br />
-          <a
-            href="https://www.coursera.org/account/accomplishments/specialization/certificate/YYER9C5QMJ38"
-          >
-            Deep Learning Specialization
-          </a>
-          <br />
-          <a
-            href="https://www.coursera.org/account/accomplishments/specialization/certificate/4ACB9UDBPJJU"
-          >
-            Machine Learning Specialization
-          </a>
-          <br />
-          <a
-            href="https://www.coursera.org/account/accomplishments/specialization/certificate/8DCBFJA9947M"
-          >
-            Mathematics for Machine Learning and Data Science Specialization
-          </a>
-        </header>
-        <footer>
+            <b> Courses Taken </b>
+            <br />
+            <a
+              href="https://www.coursera.org/account/accomplishments/specialization/certificate/YYER9C5QMJ38"
+            >
+              Deep Learning Specialization
+            </a>
+            <br />
+            <a
+              href="https://www.coursera.org/account/accomplishments/specialization/certificate/4ACB9UDBPJJU"
+            >
+              Machine Learning Specialization
+            </a>
+            <br />
+            <a
+              href="https://www.coursera.org/account/accomplishments/specialization/certificate/8DCBFJA9947M"
+            >
+              Mathematics for Machine Learning and Data Science Specialization
+            </a>
+          </div>
           <div
             style="
               display: flex;
               justify-content: flex-start;
               align-items: center;
+              margin-top: 30px;
             "
           >
             <a href="https://github.com/EdIzaguirre" style="margin-right: 30px">
@@ -117,7 +118,7 @@
               />
             </a>
           </div>
-        </footer>
+        </body>
       </div>
       <div class="right">
         <h2>Projects</h2>
@@ -172,23 +173,18 @@
         <div class="project-container">
           <div class="project-item">
             <a href="https://par.nsf.gov/servlets/purl/10319490">
-              <img src="./assets/img/MiniCheetah.jpeg" alt="Mini Cheetah" />
-              <div class="item-title">
-                Autonomous Navigation with Optimized Jumping through Constrained
-                Obstacles on Quadrupeds
-              </div>
+              <img src="./assets/img/MiniCheetahv2.jpeg" alt="Mini Cheetah" />
+              <div class="item-title">Autonomous Navigation</div>
             </a>
             <div class="item-content">
-              Creation of a four-phase jump to mimic how a quadruped jumps in
-              nature. Modify the cost function penalizing joint velocities,
-              accelerations, and torques to minimize energy expenditure while
-              respecting dynamic and geometric constraints
+              Designed the jumping mechanics of the MIT Mini Cheetah as it moved
+              through an obstacle course.
             </div>
             <ul class="tech-list">
-              <li class="tech-tag">Computer Vision</li>
-              <li class="tech-tag">U-Net</li>
-              <li class="tech-tag">Keras</li>
-              <li class="tech-tag">TensorFlow</li>
+              <li class="tech-tag">Control Systems</li>
+              <li class="tech-tag">Optimization</li>
+              <li class="tech-tag">MATLAB</li>
+              <li class="tech-tag">C++</li>
             </ul>
           </div>
         </div>

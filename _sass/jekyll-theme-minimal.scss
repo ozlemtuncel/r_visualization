@@ -42,17 +42,6 @@ h1 {
   font-size: 38px;
 }
 
-h2 {
-  color: #393939;
-}
-
-h3,
-h4,
-h5,
-h6 {
-  color: #494949;
-}
-
 a {
   color: black;
   text-decoration: underline;
@@ -87,7 +76,7 @@ a:hover small {
 }
 
 .left {
-  margin-left: 15%;
+  margin-left: 5%;
   margin-right: 5%;
   margin-top: 2%;
 }
@@ -97,7 +86,7 @@ a:hover small {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-right: 15%;
+  margin-right: 5%;
   margin-top: 2%;
 }
 
@@ -205,7 +194,7 @@ ul.downloads {
   justify-content: flex-start; /* align horizontal */
   align-items: center; /* align vertical */
   height: 100%; /* you might need to set a specific height */
-  width: 600px;
+  width: 700px;
 }
 
 .project-item {
@@ -213,7 +202,7 @@ ul.downloads {
   width: 400px; /* Example width - adjust as needed */
   margin: 10px; /* Spacing between projects */
   padding: 20px;
-  background-color: #f9fafb;
+  background-color: #fafafd;
   border-radius: 20px;
   display: flex; /* Display as inline elements */
   flex-direction: column;
@@ -266,6 +255,10 @@ ul.downloads {
   font-weight: bold;
 }
 
+.bio_info {
+  font-size: 14px;
+}
+
 .downloads ul a:active {
   background-color: #f0f0f0;
 }
@@ -312,7 +305,7 @@ footer {
   margin-top: 20px;
 }
 
-@media print, screen and (max-width: 1600px) {
+@media print, screen and (max-width: 1400px) {
   .container {
     flex-direction: column;
   }
@@ -340,12 +333,6 @@ footer {
 
   header {
     padding-right: 320px;
-  }
-
-  section {
-    padding: 20px 0;
-    margin: 0 0 20px;
-    float: left;
   }
 
   header a small {
