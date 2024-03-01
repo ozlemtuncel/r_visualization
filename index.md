@@ -9,9 +9,11 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 
 ## Credentials
+
 This is the longest paragrapher ever! This is the longest paragrapher ever! This is the longest paragrapher ever! This is the longest paragrapher ever! This is the longest paragrapher ever! This is the longest paragrapher ever!
 
 ## Research
+
 ```
 The final element.
 ```
