@@ -16,57 +16,159 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>{{ site.title }}</h1>
-        <!-- {% if site.logo %}
-        <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %} -->
+    <div class="container">
+      <div class="left">
+        <header>
+          <h1>{{ site.title }}</h1>
+          <!-- {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          {% endif %} -->
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <p>
+            Aspiring machine learning engineer. Focus on computer vision and
+            natural language processing. A former college physics educator.
+            Enjoy indoor gardening, jiu-jitsu, and Stanley Kubrick films.
+          </p>
 
-        <b> University of California, Berkeley </b>
-        M.Eng Mechanical Engineering, 2020
-        <br />
-        MA Physics, 2016
-      </header>
-      <section>{{ content }}</section>
-      <footer>
-        <div
-          style="display: flex; justify-content: center; align-items: center"
-        >
+          <b> University of California, Berkeley </b>
+          <br />
+          M.Eng Mechanical Engineering
+          <br />
+          MA Physics
+          <br />
+          <br />
+
+          <b> Credentials </b>
+          <br />
           <a
-            href="https://github.com/EdIzaguirre"
-            style="flex: 1; text-align: center"
+            href="https://www.credential.net/e15f08bb-c554-488b-877c-84a0e64d2284#gs.591771"
           >
-            <img
-              src="./assets/img/github_logo.png"
-              alt="GitHub Logo"
-              style="width: 50%; height: auto"
-            />
+            TensorFlow Developer Certificate
           </a>
+          <br />
           <a
-            href="https://www.linkedin.com/in/ed-izaguirre/"
-            style="flex: 1; text-align: center"
+            href="https://learn.microsoft.com/en-us/users/edizaguirre-7530/credentials/24dcb5d8c1e99788?ref=https%3A%2F%2Fwww.linkedin.com%2F"
           >
-            <img
-              src="./assets/img/LI-In-Bug.png"
-              alt="LinkedIn Logo"
-              style="width: 50%; height: auto"
-            />
+            Microsoft Certified: Azure AI Fundamentals
           </a>
+          <br />
           <a
-            href="https://medium.com/@ed.izaguirre"
-            style="flex: 1; text-align: center"
+            href="https://learn.microsoft.com/en-us/users/edizaguirre-7530/credentials/fa77dc26bc82c74a?ref=https%3A%2F%2Fwww.linkedin.com%2F"
           >
-            <img
-              src="./assets/img/medium_logo.jpg"
-              alt="Medium Logo"
-              style="width: 50%; height: auto"
-            />
+            Microsoft Certified: Azure AI Engineer Associate
           </a>
+
+          <br />
+          <br />
+
+          <b> Courses Taken </b>
+          <br />
+          <a
+            href="https://www.coursera.org/account/accomplishments/specialization/certificate/YYER9C5QMJ38"
+          >
+            Deep Learning Specialization
+          </a>
+          <br />
+          <a
+            href="https://www.coursera.org/account/accomplishments/specialization/certificate/4ACB9UDBPJJU"
+          >
+            Machine Learning Specialization
+          </a>
+          <br />
+          <a
+            href="https://www.coursera.org/account/accomplishments/specialization/certificate/8DCBFJA9947M"
+          >
+            Mathematics for Machine Learning
+          </a>
+        </header>
+        <footer>
+          <div
+            style="
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+            "
+          >
+            <a href="https://github.com/EdIzaguirre" style="margin-right: 30px">
+              <img
+                src="./assets/img/github_logo.png"
+                alt="GitHub Logo"
+                style="width: 30px; height: 30px"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ed-izaguirre/"
+              style="margin-right: 30px"
+            >
+              <img
+                src="./assets/img/new-linkedin-logo-white-black-png.png"
+                alt="LinkedIn Logo"
+                style="width: 30px; height: 30px"
+              />
+            </a>
+            <a
+              href="https://medium.com/@ed.izaguirre"
+              style="margin-right: 30px"
+            >
+              <img
+                src="./assets/img/medium_logo.jpg"
+                alt="Medium Logo"
+                style="width: 30px; height: 30px"
+              />
+            </a>
+          </div>
+        </footer>
+      </div>
+      <div class="right">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project-item">
+            <a
+              href="https://medium.com/towards-data-science/image-segmentation-an-in-depth-guide-5e56512eea2e"
+            >
+              <img
+                src="./assets/img/image_segmentation_car.png"
+                alt="Image Segmentation"
+              />
+              <div class="item-title">Image Segmentation</div>
+            </a>
+            <div class="item-content">
+              Segmented cars from their background using images from the Carvana
+              Kaggle competition.
+            </div>
+            <ul class="tech-list">
+              <li class="tech-tag">Computer Vision</li>
+              <li class="tech-tag">U-Net</li>
+              <li class="tech-tag">Keras</li>
+              <li class="tech-tag">TensorFlow</li>
+            </ul>
+          </div>
+          <div class="project-item">
+            <a
+              href="https://towardsdatascience.com/object-detection-using-retinanet-and-kerascv-b07940327b6c"
+            >
+              <img
+                src="./assets/img/object_detection.png"
+                alt="Object Detection"
+              />
+              <div class="item-title">Object Detection</div>
+            </a>
+            <div class="item-content">
+              Demonstrated an end-to-end object detection pipeline to recognize
+              healty and diseased leaves.
+            </div>
+            <ul class="tech-list">
+              <li class="tech-tag">Computer Vision</li>
+              <li class="tech-tag">RetinaNet</li>
+              <li class="tech-tag">KerasCV</li>
+              <li class="tech-tag">TensorFlow</li>
+            </ul>
+          </div>
         </div>
-      </footer>
+        <br />
+
+        <h2>Research</h2>
+      </div>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
