@@ -1,3 +1,3 @@
-# Porfolio
+# Porfolio Website
 
-GitHub hosting Ed Izaguirre's portfolio website: [https://edizaguirre.github.io/](see here.)
+GitHub hosting Ed Izaguirre's portfolio website: [https://edizaguirre.github.io](see here.)
