@@ -1,6 +1,6 @@
-title: Ed Izaguirre
-logo: /assets/img/face_shot.jpeg
-description: Aspiring machine learning engineer. Focus on computer vision and natural language processing. A former college physics educator.
+title: Ed Izaguirre Portfolio
+seo_title: "{{ page.title }}"
+description:
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
