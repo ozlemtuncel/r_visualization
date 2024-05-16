@@ -324,6 +324,7 @@ footer {
   .project-container {
     width: 90%;
     margin: 0; /* Center the container */
+    max-width: none;
   }
 
   header,
@@ -360,6 +361,12 @@ footer {
 
   header {
     padding: 0;
+  }
+
+  .project-container {
+    width: 90%;
+    margin: 0; /* Center the container */
+    max-width: none;
   }
 
   header ul,
