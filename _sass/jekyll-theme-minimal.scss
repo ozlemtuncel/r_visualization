@@ -380,6 +380,11 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr); /* One column */
+    grid-template-rows: repeat(3, 1fr); /* Four rows */
+  }
+
   body {
     word-wrap: break-word;
   }
