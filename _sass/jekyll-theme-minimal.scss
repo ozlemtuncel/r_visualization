@@ -348,9 +348,9 @@ footer {
 
 @media print, screen and (max-width: 720px) {
   .grid-container {
-    grid-template-columns: repeat(1, 1fr); /* One column */
-    grid-template-rows: repeat(3, 1fr); /* Four rows */
-
+    grid-template-columns: repeat(1, 90%); /* One column */
+    grid-template-rows: repeat(3, 500px); /* Four rows */
+    padding: 5px;
   }
   body {
     word-wrap: break-word;
