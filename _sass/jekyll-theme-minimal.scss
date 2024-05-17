@@ -72,6 +72,7 @@ a:hover small {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  margin: auto
 }
 
 .left,
@@ -122,11 +123,13 @@ a:hover small {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto; /* Creates a 2-column grid */
   padding: 10px;
-  grid-template-columns: 400px 400px; /* Each column is now 50px wide */
-  grid-template-rows: 400px 400px; /* Each column is now 50px wide */
+  grid-template-columns: 400px 400px; 
+  grid-template-rows: 400px 400px;
+}
 
+.grid-container > :nth-child(4) {
+  display: none; /* Hides the 4th child element */
 }
 
 .grid-item {
@@ -343,14 +346,6 @@ footer {
     margin-bottom: 20px;
   }
 
-  
-  .project-container {
-    width: 90%;
-    // margin: 0; /* Center the container */
-    max-width: 1000px;
-    overflow-x: scroll;
-
-  }
 
   header,
   section,
@@ -383,8 +378,8 @@ footer {
   .grid-container {
     grid-template-columns: repeat(1, 1fr); /* One column */
     grid-template-rows: repeat(3, 1fr); /* Four rows */
-  }
 
+  }
   body {
     word-wrap: break-word;
   }
