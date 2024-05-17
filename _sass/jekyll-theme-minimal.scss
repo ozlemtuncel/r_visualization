@@ -220,6 +220,7 @@ ul.downloads {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+  flex-wrap: wrap; /* Allows the list to wrap onto the next line */
 }
 
 .tech-tag {
