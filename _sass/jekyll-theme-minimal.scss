@@ -114,7 +114,7 @@ a:hover small {
   border-radius: 20px;
   text-align: start;
   margin: 5px; /* Spacing between projects */
-  overflow: auto; // Add this line
+  overflow: clip; // Add this line
 
 }
 
