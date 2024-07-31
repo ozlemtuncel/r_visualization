@@ -12,7 +12,6 @@ layout: default
 
 
 # Books on data visualization
-- [Modern Data Visualization with R](https://rkabacoff.github.io/datavis/) by Robert Kabacoff
 -
 
 # R Videos 
