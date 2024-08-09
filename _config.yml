@@ -1,6 +1,6 @@
 title: Data Visualization in R
 logo: /assets/img/r-viz-logo.png
 description: This is a course on visualization in R. Created by Ozlem Tuncel (she/her/hers)
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
