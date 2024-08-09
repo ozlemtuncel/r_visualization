@@ -15,7 +15,7 @@ layout: default
 
 # My go-to sources for learning visualization in R
 
-<img src="assets/img/visual_suggestions.png" alt="I relied on these sources to learn R" style="width: 70%; height: auto;">
+<img src="assets/img/visual_suggestions.png" alt="I relied on these sources to learn R" style="width: 80%; height: auto;">
 
 I started learning R around 2015 and over time these four resources was my go-to to learn data visualization in R. 
 
