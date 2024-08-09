@@ -2,13 +2,13 @@
 layout: default
 ---
 
-# Gentle Introduction to Data Visualization with R 
+## Gentle Introduction to Data Visualization with R 
 <p xmlns:cc="http://creativecommons.org/ns#" >This work, as a whole, is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"> Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
 
 ### Georgia State University
 ### by [Ozlem Tuncel, PhD](https://ozlemtuncel.github.io/)
 
-# Slides
+## Slides
 - **[Introduction to Data Visualization with R](https://ozlemtuncel.quarto.pub/data-visualization-in-r/)** by Ozlem Tuncel
   - *This slide is based on materials prepared by [Adam Kuczynski](https://adamkucz.github.io/psych548/), [Charles Lanfear](https://clanfear.github.io/) and [Rebecca Ferrell](https://anth.la.psu.edu/people/rebecca-ferrell/). I am indebted to their code, examples, and inspiration.*
 - I recommend checking the other website I created for [introduction to R](https://ozlemtuncel.github.io/introduction-R/).
@@ -24,7 +24,7 @@ I started learning R around 2015 and over time these four resources was my go-to
 - [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/) by Hadley Wickham
 - [The Grammar of Graphics (Statistics and Computing) ](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448) by Leland Wilkinson
 
-# Very Incomprehensive Sources for Learning Data Visualization R
+## Very Incomprehensive Sources for Learning Data Visualization R
 *If you need more resources on specific things, I have created this incomprehensive list of sources to learn data visualization.*
 
 📦 : R package
