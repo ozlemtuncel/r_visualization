@@ -35,20 +35,43 @@ I started learning R around 2015 and over time these four resources was my go-to
 
 📚: Book
 
-### Visualization, ggplot2 packages, and helpers
-
+### General Resources
 - ⭐ 🌐 [Data Visualization](https://datavizm20.classes.andrewheiss.com/) — A course by Andrew Heiss
+- ⭐ 🌐 [R graph gallery](https://r-graph-gallery.com/index.html) — comprehensive gallery for R charts
+- 🌐 [Gentle Guide to ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2/#1) 
+- 📚⭐ [Modern Data Visualization with R](https://rkabacoff.github.io/datavis/) by Robert Kabacoff
+- 📚 [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/) by Hadley Wickham
+- 📚 [The Grammar of Graphics (Statistics and Computing) ](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448) by Leland Wilkinson
+
+### ggplot2 and extension packages
 - 📦 [ggpubr](https://rpkgs.datanovia.com/ggpubr/index.html) — Customizes ggplots to create publication ready figures
 - 📦 [patchwork](https://patchwork.data-imaginist.com/) — Combines separate ggplots into the same graphic
 - 🌐 [ggplot2tor](https://ggplot2tor.com/aesthetics/) — Find the right aesthetics for your visualization
-- 🌐 [color blindness simulator](https://laura.rochaprado.com/color-blind-simulator/) — Picking colorblind-friendly colors
-- ⭐ 🌐 [R graph gallery](https://r-graph-gallery.com/index.html) — comprehensive gallery for R charts
-- 📦 [ggeffects](https://strengejacke.github.io/ggeffects/index.html) — Estimated marginal means and adjusted predictions from regression models
+- 🌐 [ggplot2 cheatsheet](https://rstudio.github.io/cheatsheets/html/data-visualization.html)
+- 🌐 [The Grammar of ggplot](https://psu-psychology.github.io/r-bootcamp-2019/talks/ggplot_grammar.html)
+
+### Specific plots
 - 📦 [dotwhisker](https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html) — Plot regression model results
+- 🌐 [Diagnostics plots for linear regression analysis](https://library.virginia.edu/data/articles/diagnostic-plots)
+   
+### Interactions and marginal effects
+- 📦 [ggeffects](https://strengejacke.github.io/ggeffects/index.html) — Estimated marginal means and adjusted predictions from regression models
 - 🌐 [Plotting interactions](https://stats.oarc.ucla.edu/r/seminars/interactions-r/)
 - 🌐 [Plotting interactions among categorical variables](https://cran.r-project.org/web/packages/interactions/vignettes/categorical.html)
 - 🌐 [Plotting predicted probabilities](https://www.theanalysisfactor.com/r-glm-plotting/)
 - 🌐 [Plotting marginal effects](https://rpubs.com/milesdwilliams15/326345)
 - 🌐 [Plotting marginal effects with ggeffects](https://www.sscc.wisc.edu/sscc/pubs/Rmisc/margins.html)
 - 🌐 [Plotting residuals](https://drsimonj.svbtle.com/visualising-residuals)
-- 🌐 [Gentle Guide to ggplot2](https://pkg.garrickadenbuie.com/gentle-ggplot2/#1)
+- 🌐 [Marginal effects zoo in R or Python](https://marginaleffects.com/vignettes/get_started.html)
+
+### Maps
+- 🌐 [Drawing beautiful maps programmatically with R, sf and ggplot2](https://r-spatial.org/r/2018/10/25/ggplot2-sf.html)
+- 🌐 [Creating maps with ggplo2](https://kelseyandersen.github.io/DataVizR/mapping.html)
+- 🌐 [GADM data for administrative areas in the world](https://gadm.org/data.html)
+  
+### Misc
+- 🌐 [color blindness simulator](https://laura.rochaprado.com/color-blind-simulator/) — Picking colorblind-friendly colors
+- 🌐 [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+
+
+
