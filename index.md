@@ -72,6 +72,7 @@ I started learning R around 2015 and over time these four resources was my go-to
 ### Misc
 - 🌐 [color blindness simulator](https://laura.rochaprado.com/color-blind-simulator/) — Picking colorblind-friendly colors
 - 🌐 [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
+- ⭐🌐 [Gallery of statistical animations](https://yihui.org/animation/example/)
 
 
 
