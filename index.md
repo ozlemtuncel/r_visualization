@@ -14,7 +14,7 @@ layout: default
 - I recommend checking the other website I created for [introduction to R](https://ozlemtuncel.github.io/introduction-R/).
 
 ## Hands-on Exercise
-- Let's create a figure using `gapminder` data. See instructions in [here](docs/R_Visualization_Exercise.pdf)
+- Let's create a figure using `gapminder` data. See instructions in [here](docs/R_Visualization_Exercise.pdf).
 
 # My go-to sources for learning visualization in R
 
