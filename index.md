@@ -13,6 +13,9 @@ layout: default
   - *This slide is based on materials prepared by [Adam Kuczynski](https://adamkucz.github.io/psych548/), [Charles Lanfear](https://clanfear.github.io/) and [Rebecca Ferrell](https://anth.la.psu.edu/people/rebecca-ferrell/). I am indebted to their code, examples, and inspiration.*
 - I recommend checking the other website I created for [introduction to R](https://ozlemtuncel.github.io/introduction-R/).
 
+## Hands-on Exercise
+- Let's create a figure using `gapminder` data. See instructions in [here](docs/R_Visualization_Exercise.pdf)
+
 # My go-to sources for learning visualization in R
 
 <img src="assets/img/visual_suggestions.png" alt="I relied on these sources to learn R" style="width: 80%; height: auto;">
