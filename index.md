@@ -52,7 +52,8 @@ I started learning R around 2015 and over time these four resources was my go-to
 - 🌐 [ggplot2tor](https://ggplot2tor.com/aesthetics/) — Find the right aesthetics for your visualization
 - 🌐 [ggplot2 cheatsheet](https://rstudio.github.io/cheatsheets/html/data-visualization.html)
 - 🌐 [The Grammar of ggplot](https://psu-psychology.github.io/r-bootcamp-2019/talks/ggplot_grammar.html)
-
+- ⭐ 🌐 [Beautiful Plotting with ggplot2](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
+  
 ### Specific plots
 - 📦 [dotwhisker](https://cran.r-project.org/web/packages/dotwhisker/vignettes/dotwhisker-vignette.html) — Plot regression model results
 - 🌐 [Diagnostics plots for linear regression analysis](https://library.virginia.edu/data/articles/diagnostic-plots)
